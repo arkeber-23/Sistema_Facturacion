@@ -1,0 +1,21 @@
+{
+    "name": "eber/facturacion",
+    "description": "sistema de facturacion",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "EberCode"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\":"app/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "components/font-awesome": "dev-master",
+        "bramus/router": "dev-master"
+    }
+}
